@@ -1,0 +1,169 @@
+h1{
+  
+      font-family: "Changa", sans-serif;
+      font-optical-sizing: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 40vh;
+      font-size: 130px;
+    
+
+}
+h2.second{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.animated-background {
+    width: 100vw; /* Adjust as needed */
+    height: 100vh; /* Adjust as needed */
+    background: linear-gradient(45deg, #134B70, #004B49);
+    background-size: 400% 400%;
+    animation: gradientAnimation 15s ease infinite;
+    height: 70vh;
+  }
+
+  /* Define the gradient animation */
+  @keyframes gradientAnimation {
+    0% {
+      background-position: 0% 0%;
+    }
+    50% {
+      background-position: 100% 100%;
+    }
+    100% {
+      background-position: 0% 0%;
+    }
+  }
+ /* Ensure the image is responsive within its container */
+.pic {
+    width: 100%; /* Make the image width 100% of its parent container */
+    height: 300px; 
+  /* Maintain aspect ratio */
+    max-width: 100%; /* Prevent image from exceeding container width */
+    object-fit: cover; /* Ensure the image covers its container */
+    border: 1px solid #134B70; /* Optional: border around image */
+}
+
+/* Responsive adjustments for different screen sizes */
+@media (max-width: 768px) {
+    .pic {
+        max-width: 100%; /* Ensure image fits within the column */
+        height: auto; /* Maintain aspect ratio */
+    }
+}
+
+@media (max-width: 576px) {
+    .pic {
+        max-width: 100%; /* Ensure image fits within the column */
+        height: auto; /* Maintain aspect ratio */
+    }
+}
+.myskills{
+    display: flex;
+    justify-content: center;
+    font-family: "Orbitron", sans-serif;
+    font-size: 40px;
+}
+
+.container#greyish{
+    background-color: gray;
+}
+
+ 
+
+  
+  
+  .col-md-6{
+    padding-right: 100px;
+    padding-top: 50px;
+    padding-bottom:-80px ;
+  }
+  .third{
+    background-color: gray;
+    padding-top: 40px;
+  }
+  .col-md-6{
+    background-color: #508C9B ;
+    padding: 0%;
+  }
+  .About-Text{
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+
+  }
+  h5{
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .fourth {
+    background-color: gray; /* Outer background color (light grey) */
+    padding: 20px 0; /* Adjust padding as needed */
+  }
+  
+  /* Ensure the inner container background color is set correctly */
+  #skills {
+    background-color: whitesmoke; /* Inner container background color (slightly darker grey) */
+    padding: 20px; /* Adjust padding as needed */
+    border-radius: 8px; /* Optional: adds rounded corners to the container */
+  }
+  
+  /* Optional: if you want to change the background color of the cards */
+  .card {
+    background-color: whitesmoke; /* Card background color (white) */
+    border-radius: 8px; /* Optional: adds rounded corners to the cards */
+  }
+  .fifth{
+    background-color: gray;
+  }
+ .interest{
+   padding-left: 40px;
+   font-size: 40px;
+   color: #201E43 ;
+   font-family: "Orbitron", sans-serif;
+ }
+ .card-title{
+    color: #201E43 ;
+ }
+ .myskills{
+    color: #201E43 ; 
+ }
+ .pie{
+ background-color: #508C9B;
+
+ }
+ 
+ h2.gmail{
+    font-family: "Orbitron", sans-serif;
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ p.gmail{
+
+    font-size: 40px;
+    display: flex;
+    justify-content:flex-start;
+    align-items:flex-start;
+    height: 40vh;
+ }
+ .footer{
+    background-color:#134B70;
+    height: 10vh;
+ }
+ .container#footer{
+    background-color:#134B70;
+  
+    font-size: 40px;
+ }
+ h2.nail{
+    color: white;
+ }
+  
